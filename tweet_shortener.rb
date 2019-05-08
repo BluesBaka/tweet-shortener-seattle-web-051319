@@ -38,8 +38,7 @@ end
 
 def selective_tweet_shortener(tweets)
       if tweets.count > 140
-        binding.pry
-      puts word_substituter(tweets)
+       word_substituter(tweets)
     else
       tweets
     end
